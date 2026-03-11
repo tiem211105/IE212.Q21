@@ -82,7 +82,7 @@ public class MovieRatingAverage {
             context.write(new Text(movie),
                     new Text("Average rating: " + avg + " (Total ratings: " + count + ")"));
 
-            if( avg > maxRating){
+            if( count >=5 && avg > maxRating){
                 maxRating = avg;
                 maxMovie = movie;
             }
