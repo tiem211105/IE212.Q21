@@ -89,9 +89,15 @@ public class MovieRatingAverage {
         }
 
         protected void cleanup(Context context) throws IOException, InterruptedException {
-
+			if(maxMovie.equals("")){
             context.write(new Text("RESULT"),
-                    new Text(maxMovie + " is the highest rated movie with average rating " + maxRating));
+						  new Text ("No movies has at least 5 ratings."));
+			}
+			else{
+				context.write(new Text("RESULT"),
+				new Text(maxMovie + "is the highest rated movie with an average rating of " + maxRating + "among movies with at least 5 ratings."'));
+			}
+                    
         }
     }
 
