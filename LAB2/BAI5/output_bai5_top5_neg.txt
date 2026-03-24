@@ -1,0 +1,5 @@
+negative,không,1490
+negative,phòng,1414
+negative,tôi,1142
+negative,có,987
+negative,khách,811

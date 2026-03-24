@@ -1,0 +1,5 @@
+positive,phòng,5002
+positive,tôi,4526
+positive,khách,3957
+positive,và,3403
+positive,vụ,3258
