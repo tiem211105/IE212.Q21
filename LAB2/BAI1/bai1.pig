@@ -1,4 +1,4 @@
-reviews = LOAD '/lab2/input/hotel-review.csv'
+reviews = LOAD '/user/tiem23521566/hotel-review.csv'
 USING PigStorage(';')
 AS (id:int, review:chararray, aspect:chararray, category:chararray, sentiment:chararray);
 
@@ -6,7 +6,7 @@ lower_reviews = FOREACH reviews GENERATE id, LOWER(review) AS review;
 
 words = FOREACH lower_reviews GENERATE id, FLATTEN(TOKENIZE(review)) AS word;
 
-stopwords = LOAD '/lab2/input/stopwords.txt'
+stopwords = LOAD '/user/tiem23521566/stopwords.txt'
 USING PigStorage()
 AS (stopword:chararray);
 
