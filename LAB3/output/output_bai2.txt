@@ -1,0 +1,13 @@
+Genre | AvgRating
+Action | 3.71
+Adventure | 3.63
+Biography | 3.56
+Crime | 3.81
+Drama | 3.76
+Family | 3.67
+Fantasy | 3.86
+Film-Noir | 4.36
+Horror | 4.00
+Mystery | 4.00
+Sci-Fi | 3.73
+Thriller | 3.70

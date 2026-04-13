@@ -1,0 +1,24 @@
+E.T. the Extra-Terrestrial (1982) | F | 3.5
+E.T. the Extra-Terrestrial (1982) | M | 4.0
+Fight Club (1999) | F | 3.5
+Fight Club (1999) | M | 3.5
+Gladiator (2000) | F | 3.5
+Gladiator (2000) | M | 3.4
+Lawrence of Arabia (1962) | F | 3.0
+Lawrence of Arabia (1962) | M | 3.17
+Mad Max: Fury Road (2015) | F | 3.07
+No Country for Old Men (2007) | F | 4.0
+No Country for Old Men (2007) | M | 4.0
+Psycho (1960) | F | 4.5
+Sunset Boulevard (1950) | F | 4.5
+Sunset Boulevard (1950) | M | 4.33
+The Godfather: Part II (1974) | F | 4.5
+The Godfather: Part II (1974) | M | 4.5
+The Lord of the Rings: The Fellowship of the Ring (2001) | F | 4.0
+The Lord of the Rings: The Fellowship of the Ring (2001) | M | 4.0
+The Silence of the Lambs (1991) | F | 3.0
+The Silence of the Lambs (1991) | M | 3.33
+The Social Network (2010) | F | 3.67
+The Social Network (2010) | M | 4.0
+The Terminator (1984) | F | 4.5
+The Terminator (1984) | M | 4.5

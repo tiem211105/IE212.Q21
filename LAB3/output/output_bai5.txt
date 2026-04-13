@@ -1,0 +1,14 @@
+Accountant | 3.83 | 3
+Artist | 3.8 | 5
+Consultant | 3.94 | 8
+Designer | 3.71 | 7
+Doctor | 3.5 | 9
+Engineer | 3.57 | 7
+Journalist | 3.89 | 9
+Lawyer | 3.44 | 8
+Manager | 3.79 | 7
+Nurse | 3.6 | 5
+Programmer | 4.38 | 4
+Salesperson | 3.8 | 5
+Student | 3.8 | 5
+Teacher | 4.25 | 2
