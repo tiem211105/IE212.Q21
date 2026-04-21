@@ -1,0 +1,198 @@
+--- Customer_List Schema ---
+Customer_Trx_ID: string
+Subscriber_ID: string
+Subscribe_Date: date
+First_Order_Date: date
+Customer_Postal_Code: string
+Customer_City: string
+Customer_Country: string
+Customer_Country_Code: string
+Age: int
+Gender: string
+
+
+--- Order_Items Schema ---
+Order_ID: string
+Order_Item_ID: int
+Product_ID: string
+Seller_ID: string
+Shipping_Limit_Date: timestamp
+Price: double
+Freight_Value: double
+
+
+--- Order_Reviews Schema ---
+Review_ID: string
+Order_ID: string
+Review_Score: string
+Review_Comment_Title_En: string
+Review_Comment_Message_En: string
+Review_Creation_Date: string
+Review_Answer_Timestamp: timestamp
+
+
+--- Orders Schema ---
+Order_ID: string
+Customer_Trx_ID: string
+Order_Status: string
+Order_Purchase_Timestamp: timestamp
+Order_Approved_At: timestamp
+Order_Delivered_Carrier_Date: timestamp
+Order_Delivered_Customer_Date: timestamp
+Order_Estimated_Delivery_Date: timestamp
+
+
+--- Products Schema ---
+Product_ID: string
+Product_Category_Name: string
+Product_Weight_Gr: int
+Product_Length_Cm: int
+Product_Height_Cm: int
+Product_Width_Cm: int
+
+
+2. THONG KE
+Tong so don hang: 99441
+Tong so khach hang: 99442
+Tong so nguoi ban: 3095
+
+3. DON HANG THEO QUOC GIA
+Germany: 41754
+France: 12848
+Netherlands: 11629
+Belgium: 5464
+Austria: 5043
+Switzerland: 3640
+United Kingdom: 3382
+Poland: 2139
+Czechia: 2034
+Italy: 2025
+Spain: 1651
+Portugal: 1336
+Sweden: 975
+Denmark: 905
+Serbia: 746
+Norway: 716
+Slovakia: 534
+Slovenia: 495
+Turkey: 485
+Greece: 412
+Lithuania: 351
+Latvia: 280
+Croatia: 254
+Estonia: 148
+Finland: 81
+Luxembourg: 68
+Andorra: 46
+
+4. SO LUONG DON HANG NHOM THEO NAM, THANG DAT HANG
+Nam       Thang     So don hang    
+-----------------------------------
+2022      12        1              
+2022      10        324            
+2022      9         4              
+2023      12        5673           
+2023      11        7544           
+2023      10        4631           
+2023      9         4285           
+2023      8         4331           
+2023      7         4026           
+2023      6         3245           
+2023      5         3700           
+2023      4         2404           
+2023      3         2682           
+2023      2         1780           
+2023      1         800            
+2024      10        4              
+2024      9         16             
+2024      8         6512           
+2024      7         6292           
+2024      6         6167           
+2024      5         6873           
+2024      4         6939           
+2024      3         7211           
+2024      2         6728           
+2024      1         7269           
+
+5. THONG KE DIEM DANH GIA
+Diem trung binh: 4.09
+
+So luong danh gia theo tung muc
+1: 11424
+2: 3151
+3: 8179
+4: 19141
+5: 57328
+
+6. DOANH THU NAM 2024 THEO DANH MUC SAN PHAM
+Health_Beauty: 885191.12
+Watches_Gifts: 771986.75
+Bed_Bath_Table: 650794.70
+Sports_Leisure: 621999.34
+Computers_Accessories: 594771.04
+Housewares: 491576.96
+Furniture_Decor: 476466.13
+Auto: 404210.57
+Baby: 299052.56
+Cool_Stuff: 273910.05
+Garden_Tools: 259068.32
+Telephony: 217452.13
+Perfumery: 204562.54
+Toys: 200634.07
+Office_Furniture: 181745.73
+Stationery: 164743.85
+Pet_Shop: 152804.94
+Construction_Tools_Construction: 141187.34
+Electronics: 134265.45
+Musical_Instruments: 121476.31
+Small_Appliances: 97210.18
+Home_Appliances_2: 96291.60
+#N/A: 90849.48
+Fashion_Bags_Accessories: 85091.28
+Luggage_Accessories: 77374.65
+Consoles_Games: 72967.50
+Home_Construction: 69357.77
+Computers: 67860.80
+Home_Appliances: 66460.24
+Small_Appliances_Home_Oven_And_Coffee: 49297.59
+Agro_Industry_And_Commerce: 47262.18
+Construction_Tools_Lights: 43867.84
+Furniture_Living_Room: 42774.14
+Industry_Commerce_And_Business: 37332.84
+Audio: 36258.83
+Construction_Tools_Safety: 35409.30
+Kitchen_Dining_Laundry_Garden_Furniture: 34951.25
+Books_General_Interest: 32252.80
+Fixed_Telephony: 30497.86
+Air_Conditioning: 28889.12
+Food: 25709.75
+Home_Confort: 24186.81
+Signaling_And_Security: 22413.09
+Drinks: 21834.06
+Costruction_Tools_Garden: 20492.69
+Art: 17947.63
+Books_Technical: 16570.43
+Furniture_Bedroom: 13992.43
+Costruction_Tools_Tools: 13448.20
+Fashion_Shoes: 10118.42
+Food_Drink: 10118.00
+Market_Place: 9364.01
+Christmas_Supplies: 8078.50
+Cine_Photo: 7253.71
+Music: 4994.58
+Books_Imported: 4090.71
+Party_Supplies: 3278.41
+Fashion_Underwear_Beach: 3116.21
+Fashion_Male_Clothing: 2810.41
+Furniture_Mattress_And_Upholstery: 2688.64
+Arts_And_Craftmanship: 2008.92
+Diapers_And_Hygiene: 1890.58
+Dvds_Blu_Ray: 1674.85
+Tablets_Printing_Image: 1541.83
+Flowers: 1216.64
+La_Cuisine: 890.85
+Fashio_Female_Clothing: 783.37
+Fashion_Sport: 431.19
+Home_Comfort_2: 283.91
+Fashion_Childrens_Clothes: 194.04
+Cds_Dvds_Musicals: 117.58
