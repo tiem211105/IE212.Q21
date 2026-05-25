@@ -10,68 +10,28 @@ Hệ thống gồm:
 - Processing Server dùng YOLOv8 nhận diện người.
 - Storage Server lưu kết quả vào MongoDB.
 
-
-## Giới thiệu
-
-Hệ thống đếm số lượng người xuất hiện trong camera sử dụng:
-
-- Apache Kafka
-- YOLOv8
-- MongoDB
-- Docker
-- OpenCV
-- Flask
-
-Hệ thống được xây dựng theo kiến trúc phân tán nhằm mô phỏng môi trường xử lý dữ liệu lớn thời gian thực.
-
----
-
-# Kiến trúc hệ thống
-
-Camera/Webcam
-↓
-Receiver Server
-↓
-Apache Kafka
-↓
-Detection Server (YOLOv8)
-↓
-Storage Server
-↓
-MongoDB
-
----
-
-# Công nghệ sử dụng
+## Công nghệ sử dụng
 
 - Python
-- Flask
-- OpenCV
 - Apache Kafka
-- YOLOv8
-- MongoDB
 - Docker
+- MongoDB
+- YOLOv8
+- OpenCV
 
----
+## Kiến trúc hệ thống
 
-# Chức năng hệ thống
+Camera/Video
+↓
+Producer Server
+↓ Kafka Topic: frames
+Processing Server (YOLOv8)
+↓ Kafka Topic: detections
+Storage Server (MongoDB)
 
-## Receiver Server
+## Cài đặt
 
-- Nhận video từ webcam
-- Chuyển frame sang bytes
-- Gửi dữ liệu vào Kafka
+### Chạy Kafka
 
-## Detection Server
-
-- Nhận frame từ Kafka
-- Detect người bằng YOLOv8
-- Trả về bounding box
-- Đếm số lượng người
-
-## Storage Server
-
-- Nhận kết quả detect
-- Lưu MongoDB
-
-cd people-counting-system
+```bash
+sudo docker-compose up -d
